@@ -8,27 +8,22 @@ function App() {
         fName={"Brian"}
         lName={"Clark"}
         age={45}
-        hairColor={"Blond"}
-        initialAge={45} />
+        hairColor={"Blond"} />
       <People
         fName={"Ethan"}
         lName={"Clark"}
         age={16}
-        hairColor={"Blond"}
-        initialAge={16} />
-
+        hairColor={"Blond"} />
       <People
         fName={"Aries"}
         lName={"Clark"}
         age={12}
-        hairColor={"Black and Tan"}
-        initialAge={12} />
+        hairColor={"Black and Tan"} />
       <People
         fName={"Atlas"}
         lName={"Clark"}
         age={6}
-        hairColor={"Brindle"}
-        initialAge={6} />
+        hairColor={"Brindle"} />
     </div>
   );
 }
