@@ -1,25 +1,26 @@
 import './App.css';
-import People from './components/People';
+// import People from './components/People';
+import PersonCard from './components/PersonCard';
 
 function App() {
   return (
     <div className="App">
-      <People
+      <PersonCard
         fName={"Brian"}
         lName={"Clark"}
         age={45}
         hairColor={"Blond"} />
-      <People
+      <PersonCard
         fName={"Ethan"}
         lName={"Clark"}
         age={16}
         hairColor={"Blond"} />
-      <People
+      <PersonCard
         fName={"Aries"}
         lName={"Clark"}
         age={12}
         hairColor={"Black and Tan"} />
-      <People
+      <PersonCard
         fName={"Atlas"}
         lName={"Clark"}
         age={6}
